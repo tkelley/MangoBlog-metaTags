@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.tysonkelley.plugins.metaTags" name="metaTags" version="1.0" provider-name="Tyson Kelley" class="metaTags.plugin">
+	<description><![CDATA[ Adds meta tags to posts.<br/>
+	<br/>
+	Written By Tyson Kelley ]]></description>
+	<listens>
+		<event name="beforeHtmlHeadEnd" type="synch" priority="10" />
+		<event name="beforeAdminPostFormDisplay" type="synch" priority="10" />
+		<event name="beforeAdminPostFormEnd" type="synch" priority="10" />
+		<event name="beforePostAdd" type="synch" priority="10" />
+		<event name="beforePostUpdate" type="synch" priority="10" />
+		<event name="afterPostAdd" type="synch" priority="10" />
+		<event name="afterPostUpdate" type="synch" priority="10" />
+	</listens>
+</plugin>
